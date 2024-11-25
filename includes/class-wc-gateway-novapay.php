@@ -408,49 +408,12 @@ class WC_Gateway_Novapay extends WC_Payment_Gateway {
     	$privateKey = trim($privateKey);
 		
 		$privateKey = <<<EOD
-		-----BEGIN RSA PRIVATE KEY-----
-		Proc-Type: 4,ENCRYPTED
-		DEK-Info: DES-EDE3-CBC,91A2CE5AC47DBDCE
-
-		fYxbLHTP2DKEXb5BnRcqhLzyiY80BEAoKiHKNFMzM7JzfAKrh0Uot3syAP6z//75
-		arRvIMSe3HRWeD9COjOqEenza5srAh3A3s5KlktutkHwHc8XHWFpFzfp+2XztqIw
-		xvSqzeKceABqtP/wDb76tPU4+D4sHn8sKUeJ/87UNxfa7UD0omJ8s6pXOevCTm8J
-		ndLzJZdrA3HqkwbyUFUZrkF3QIVqlhXW3mtFyGWILxIHULQt5dOF3hJyhjavXuHF
-		qLv37uzmAtHftFpfClpNG/MKbqY+Bt0cP622TQaUdVTi9M7cpgpwOthRhharvmvM
-		LxfpeMP/zi+z/mYJhjhcHkpFj3RDEfH0t5u+5/tb8JMI/lHLjrScshr+qwdjt/XZ
-		gYLxKTYP0wQ9B+SNR+6nAcvAe8FviqzvJWVqrzTyQJR8sC8EJcoDjf096MACuESL
-		eaqUtwa/BjwP9CIUgurxbzmj5Jjn96HI4fnEGdK6zvXfrz0V0WjFf3wdYiHTwQ+D
-		L3uUo9uZ9Wn6I6NXitUE7aUqx6m9MVI7WoAWAnrOnynOzHg5yC7ckdiiW8xB3KiR
-		ko3dvl7JMtZFIb8lWcs2Re54w9COLRNE3Bak1qa/Zpd1BkQ3sn1LXPy8ivb7jSrj
-		OyQlZoCesH1m/EZ5z7MSrGFmMWI2/A7suR1sI8z2tE+ksjU+PZ4c/LY1PjixWaEO
-		SqNCjVSCorq2qHBtxWwaLt+XECtBqwvAn+a0W2Ary9yiNEHuZxYmQ2S3F1KR0Pr7
-		9QTnOa0JTfolcadMFqlv88xsLTZYDhY44UWk4u+H390RekK40Puq6zasZNOxRaq6
-		Ux1g1kSuPSSJpRg/DfDBqKQN4gC+Oa0DJVdficGz91gY3Bi4LaBdS3OjZUywaPzT
-		7NjKCt5F/aOPVP4XuiZektqwB68LGZ7/XD1CGuRGdNxYcnOOlSRdWT99lIyrprs3
-		3W94PDRc1J3AVxPVU1t5+cbmPv+RDs14aapPt8lgiMZeuhgaTJWNiKplbNOphjNn
-		STvSd71vm8L/pjtxHSjTmeaOUcMd4UX8/toS4B1OY3lgbaD3OSyoWT6fa16Q0cXM
-		d4suBou+pxtaWXChMt8sk4cGNa0xY7avZXtpqn/O3paHoab2U2hEHyw+MAcODO3j
-		S7doDQKZqIFU8CaAJcAmDAU4LVt0q5Cmu67flRiwok+HPNdom6ElJw3AFGjGM1tX
-		2xxI2qV3h2AqKFBKEFuw4dFFGeiVCumc69OLXbTjDG4P2hdgVjdlQ0FwQpE0IjC1
-		eGu4BRHn3ZZabjDiZyQR+KHvFERbJ+RCDlF1cu2d+29r0YX4Ysq+F6QtID0Uk2lj
-		sBP04xrIb8fjcZaRl3IFGSgTg5EpHUSOOyxaoLkEjC7SXGmn1YzJagWRLaqgQPhI
-		+tnXG9/gUz8R0R0/KBY1Mdgr+lmQ+EEavt5argcP+311/UpdCsJuzPhk9p3ZbD2Y
-		U0Yczye1XA+9DueGdtY3l2Vx32NZ0hCkzff2TTNPGrEV1RiFVtXYRN87tbpDPhwu
-		Qj/WEwBab1P3srZ/vtrRVnF85ZhA3ngfJFhaBDi6iENFwJs5xSUhetsjc2mQ56J4
-		-----END RSA PRIVATE KEY-----
+		INSET your RSA PRIVATE KEY HERE
 		EOD;
 		
 		
 		$public_key = <<<EOD
-		-----BEGIN PUBLIC KEY-----
-		MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu5uu7hQNQ9GQDyvGaeY/
-		E/7e1/4vVdxPgFVXJh1g9b0kS2HPoA2deOsem+tfgBpENQXHKzSFagr/fzuMXIrO
-		m3KP/ZIYP3Iumvq5XrM9uxcdvwUG1uL3jS3P8d1ceKlXI00FkDrlWUvhswY8cAi6
-		bvwLzfIRLk4YbxHtpr0KezPzReHD1Ib+1vxDZrfiy5rtrC87GoNEO6IMJdBaxyAS
-		R7+nllx5zdCvIz1g5bQwuyO8feTNmi/G6nFCHfQqZ4C/wZUqKZQQxsr3fCuHFmBy
-		9CaFX6emEW/e2vkeOF8MXskK+mJ0zGzkwiy1zyUXF0EMOAMFbQt9IiFjENrv0o9a
-		NwIDAQAB
-		-----END PUBLIC KEY-----
+		INSET your RSA PUBLIC KEY HERE
 		EOD;
  
 		
